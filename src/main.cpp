@@ -16,7 +16,7 @@ int main()
     if (input == "exit") {
       break;
     }
-    else
+    
     std::getline(std::cin, input);
     std::cout << input << ": command not found" << std::endl;
   }
