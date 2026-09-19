@@ -10,8 +10,13 @@ int main()
   // TODO: Uncomment the code below to pass the first stage
   while (true)
   {
+    
     std::cout << "$ ";
     std::string input;
+    if (input == "exit") {
+      break;
+    }
+    else
     std::getline(std::cin, input);
     std::cout << input << ": command not found" << std::endl;
   }
