@@ -37,7 +37,7 @@ int main()
     else if (input.substr(0, 5) == "echo "){
       std::cout << input.substr(5) << std::endl;
     } else {
-    std::cout << input << ": not found" << std::endl;
+    std::cout << (command == "type" ? argument : input) << ": not found" << std::endl;
     }
   }
 }
