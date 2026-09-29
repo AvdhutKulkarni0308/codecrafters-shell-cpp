@@ -21,13 +21,13 @@ int main()
       break;
     } else if (command == "exit")
     {
-      std::cout << argument << "is a shell builtin" <<std::endl;
+      std::cout << argument << " is a shell builtin" <<std::endl;
     }else if (argument == "echo")
     {
-      std::cout << argument << "is a shell builtin" <<std::endl;
+      std::cout << argument << " is a shell builtin" <<std::endl;
     }else if (argument == "type")
     {
-      std::cout << argument << "is a shell builtin" <<std::endl;
+      std::cout << argument << " is a shell builtin" <<std::endl;
     }else if (command == "type" && (argument == "echo" || argument == "type" || argument == "exit"))
     {
       std::cout << argument << " is a shell builtin" << std::endl;
